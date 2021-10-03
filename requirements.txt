@@ -1,5 +1,4 @@
 altair==4.1.0
-argh @ file:///home/conda/feedstock_root/build_artifacts/argh_1595627874344/work
 argon2-cffi @ file:///D:/bld/argon2-cffi_1605217264330/work
 astor @ file:///home/conda/feedstock_root/build_artifacts/astor_1593610464257/work
 async-generator==1.10
