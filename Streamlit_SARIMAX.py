@@ -50,7 +50,7 @@ st.sidebar.image(image, caption="Mike Von, unsplash.com")
 
 st.write("**PREPARING:**")
 # read the source data file
-df = pd.read_csv(wpath + "\\pants.csv")
+df = pd.read_csv(wpath + "/pants.csv")
 
 
 # %%
@@ -511,7 +511,7 @@ st.download_button(
 st.write("_" * 30)
 st.write("done for today:")
 from PIL import Image
-image = Image.open(wpath + "\\mini.jpg")
+image = Image.open(wpath + "/mini.jpg")
 st.image(image, caption="author's property")
 
 
