@@ -37,11 +37,11 @@ TESTP = 24       # 24 months to reserve for test dataset
 
 
 wpath = os.path.dirname(__file__)
-st.sidebar.write(wpath)
+# st.sidebar.write(wpath)
 
 # %%
 st.sidebar.markdown("**UberJetBaggies Inc (UJBAG!):**")
-st.sidebar.markdown("**Pythonic Web App**")
+st.sidebar.markdown("**Python-Only Web App**")
 
 
 image = Image.open(wpath + "/uberbaggies.jpg")
