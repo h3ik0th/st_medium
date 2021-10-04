@@ -44,7 +44,7 @@ st.sidebar.markdown("**UberJetBaggies Inc (UJBAG!):**")
 st.sidebar.markdown("**Pythonic Web App**")
 
 
-image = Image.open(wpath + "\\uberbaggies.jpg")
+image = Image.open(wpath + "/uberbaggies.jpg")
 st.sidebar.image(image, caption="Mike Von, unsplash.com")
 
 
