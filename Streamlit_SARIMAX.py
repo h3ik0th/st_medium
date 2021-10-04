@@ -37,7 +37,7 @@ TESTP = 24       # 24 months to reserve for test dataset
 
 
 wpath = os.path.dirname(__file__)
-
+st.sidebar.write(wpath)
 
 # %%
 st.sidebar.markdown("**UberJetBaggies Inc (UJBAG!):**")
