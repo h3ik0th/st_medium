@@ -40,8 +40,9 @@ wpath = os.path.dirname(__file__)
 # st.sidebar.write(wpath)
 
 # %%
-st.sidebar.markdown("**UberJetBaggies Inc (UJBAG!):**")
+st.sidebar.title("**UberJetBaggies Inc (UJBAG!):**")
 st.sidebar.markdown("**Python-Only Web App**")
+st.title("**Forecast App**")
 
 
 image = Image.open(wpath + "/uberbaggies.jpg")
