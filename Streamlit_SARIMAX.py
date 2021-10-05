@@ -42,7 +42,7 @@ wpath = os.path.dirname(__file__)
 # %%
 st.sidebar.title("**Forecasting:**")
 st.sidebar.markdown("**Python Web App**")
-st.title("**Time Series Forecasting with Python Web App**")
+st.title("**Time Series Forecasting with a Python Web App**")
 
 
 image = Image.open(wpath + "/uberbaggies.jpg")
